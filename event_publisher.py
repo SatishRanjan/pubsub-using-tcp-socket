@@ -11,8 +11,8 @@ class EventPublisher:
         # Send the data to all connected clients
         for client_socket in self.client_sockets:
             try:
-                moisture_event_json_str = json.dumps(event.__dict__)
-                client_socket.sendall (moisture_event_json_str.encode('utf8'))
+                event_json_str = json.dumps(event.__dict__)
+                client_socket.sendall (event_json_str.encode('utf8'))
             except:
                 # If there's an error sending the data to the socket, remove it from the client_sockets list,
                 # As the clients might have been disconnected
