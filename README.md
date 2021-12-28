@@ -2,7 +2,7 @@
 Publisher subscriber using tcp server and client socket
 
 - Default server port: 8001
-- Default client host: localhost
+- Default server host: localhost
 
 ##### Dependencies
 - Python version >= 3.0
