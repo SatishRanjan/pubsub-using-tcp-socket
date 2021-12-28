@@ -2,7 +2,7 @@ import time
 import event as e
 import event_publisher
 
-class EventGnerator():
+class EventGenerator():
     def __init__(self, event_publisher):
         self.event_publisher = event_publisher
 

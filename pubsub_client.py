@@ -1,5 +1,4 @@
 import socket
-from urllib.parse import urlparse
 import sys
 
 # default port number and hostname of the pubsub server

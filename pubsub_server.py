@@ -19,7 +19,7 @@ svr_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 svr_socket.bind((server_host, server_port))
 svr_socket.listen()
 
-event_generator = eg.EventGnerator(event_publisher)
+event_generator = eg.EventGenerator(event_publisher)
 event_generator_thread = threading.Thread(target=event_generator.generate_test_events, args=())
 event_generator_thread.start()
 

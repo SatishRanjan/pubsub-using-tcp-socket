@@ -6,6 +6,7 @@ Publisher subscriber using tcp server and client socket
 
 ##### Dependencies
 - Python version >= 3.0
+- Should work with python version >= 2.7 as well
 
 **High Level Design:**
 
